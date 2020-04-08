@@ -56,3 +56,6 @@ def destinationPune(request):
     dests = Destination.objects.filter(name='Pune').all()
     
     return render(request,'pune.html',{'dests' : dests})
+
+def contact(request):
+    return render(request,'contact.html')

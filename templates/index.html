@@ -30,11 +30,11 @@
 				<div class="col">
 					<div class="header_content d-flex flex-row align-items-center justify-content-start">
 						<div class="header_content_inner d-flex flex-row align-items-end justify-content-start">
-							<div class="logo"><a href="{% static 'index.html' %}">Roam With Us</a></div>
+							<div class="logo"><a href="home">Roam With Us</a></div>
 							<nav class="main_nav">
 								<ul class="d-flex flex-row align-items-start justify-content-start">
-									<li class="active"><a href="{% static 'index.html' %}">Home</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									<li class="active"><a href="home">Home</a></li>
+									<li><a href="contact">Contact</a></li>
 
 									{% if user.is_authenticated %}
 									<li>Hello, {{user.first_name}}</li>

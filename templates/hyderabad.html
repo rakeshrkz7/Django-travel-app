@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyderabad</title>
+</head>
+
+<body bgcolor="cyan">
+    <div>
+        {% for dest in dests%}
+        <img src="{{dest.img.url}}" alt="">
+        {%endfor%}
+    </div>
+    <div>
+        <p>
+            Hyderabad is the capital of southern India's Telangana state.<br>
+            A major center for the technology industry, it's home to many upscale restaurants and shops.<br>
+            Its historic sites include Golconda Fort, a former diamond-trading center that was once the Qutb Shahi
+            dynastic capital.<br>
+            The Charminar, a 16th-century mosque whose 4 arches support towering minarets, is an old city landmark near
+            the long-standing Laad Bazaar.
+        </p>
+    </div>
+
+</body>
+
+</html>
